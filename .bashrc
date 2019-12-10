@@ -2,7 +2,7 @@
 secure-yarn () {
 	repo=$1;
   # defaults to your GitHub profile unless you pass in a second param
-	github_username="${2:-REPLACE_THIS_WITH_YOUR_USERNAME}";
+	github_username="${2:-YOUR_USERNAME}";
 	git clone "https://github.com/$git_profile/$repo";
 	cd $repo;
 	rm yarn.lock;
